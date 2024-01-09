@@ -1,0 +1,18 @@
+curly vitra ko space laii block.
+let= Block scoped
+Var= Global (value out of block nii change hunxa)
+variable in functionr= parameter
+constant value in function= Argument
+
+forEach is prebuild void function.
+
+ in today's Class:
+ Object
+ Array
+ Function 
+ Arrow Function 
+ forEach
+ mapping
+
+ objects ma vayeko multiple values laii mapping garna map function 
+ vitrai object banunu parxa anii matra tesko value laii manipulate garna milcha

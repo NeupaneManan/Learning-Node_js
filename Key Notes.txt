@@ -16,3 +16,9 @@ forEach is prebuild void function.
 
  objects ma vayeko multiple values laii mapping garna map function 
  vitrai object banunu parxa anii matra tesko value laii manipulate garna milcha
+
+
+Day 2:
+
+
+.ejs extension le data laii dynamically dekhauxa

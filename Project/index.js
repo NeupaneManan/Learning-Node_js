@@ -1,5 +1,5 @@
 const express = require("express");
-const evenarr = require("./controllers/even");
+const { newFunc } = require("./controllers/even");
 const app = express();
 
 // const { newFunc } = require("./controllers/even");
@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/about", evenarr);
+app.get("/even", newFunc);
 
 // app.get("/even", newFunc);
 let PORT = 4000;

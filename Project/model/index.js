@@ -30,8 +30,8 @@ connectDatabase();
 
 const db = {};
 
-db.Sequelize = Sequelize;
-db.sequelize = sequelize;
+db.Sequelize = Sequelize; //Import gareko Sequelize
+db.sequelize = sequelize;// 
 
 db.blogs = require("../model/blog.js")(sequelize, Sequelize);
 

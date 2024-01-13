@@ -8,6 +8,13 @@ const app = express();
 
 db.sequelize.sync({ force: false });
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const creteRouters = require("./routes/blogs.js");
+
+app.use("/api", creteRouters);
+
 app.get("/", (req, res) => {
   res.json({
     message: "hello world from / route",
